@@ -5,8 +5,7 @@ body{
 }
 h1{
     color: #66BFBF;
-    font-style: italic;
-    font-size: 4rem; 
+    font-size: 4.5rem; 
     margin: 30px auto 0 auto;
     font-family: 'Sacramento', cursive;
     line-height: 1.5;
@@ -66,12 +65,23 @@ h3{
 .footer-link{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 .skill-row{
     width: 50%;
     margin: 100px auto 150px auto;
     text-align: left;
     line-height: 2;
+}
+.footer-link:hover{
+    color: #F7F5EB;
+}
+.copyright{
+    font-size: 0.75rem;
+    color: #F7F5EB;
+    padding: 20px 0;
 }
 .tt-img{
     margin: 30px;
